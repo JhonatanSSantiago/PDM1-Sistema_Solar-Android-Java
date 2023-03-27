@@ -46,11 +46,6 @@ public class MyAdapter extends BaseAdapter {
         image.setImageResource(p.getImagem());
         TextView textViewCategoria = view.findViewById(R.id.textView_c1);
         textViewCategoria.setText(p.getC1());
-        TextView textViewSinopse = view.findViewById(R.id.textView_c2);
-        textViewSinopse.setText(p.getC2());
-        TextView textViewPreco = view.findViewById(R.id.textView_c3);
-        textViewPreco.setText(p.getC3());
-
         return view;
     }
 }

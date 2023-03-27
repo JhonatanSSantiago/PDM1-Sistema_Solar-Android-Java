@@ -15,6 +15,12 @@ public class Planeta {
         this.c3 = c3;
     }
 
+    public Planeta(int imagem, String nome, String c1) {
+        this.imagem = imagem;
+        this.nome = nome;
+        this.c1 = c1;
+    }
+
     public int getImagem() {
         return imagem;
     }
